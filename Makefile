@@ -10,6 +10,7 @@ all:
 	cd src/util; ${MAKE}
 	cd src; ${MAKE}
 	cd tools; ${MAKE}
+	cd api/cpp; ${MAKE}
 
 install:
 	mkdir -p ${PREFIX}
